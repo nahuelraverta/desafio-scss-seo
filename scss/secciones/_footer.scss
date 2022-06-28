@@ -35,7 +35,7 @@
             }
 
             .columna2 {
-                max-width: 400px;
+                max-width: 600px;
                 font-size: 22px;
 
                 h1{font-size: 22px;
@@ -47,8 +47,11 @@
                     display: flex;
 
                     img {
-                        width: 36px;
-                        height: 36px;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .spec{width: 75px;
+                        height: 40px;
                     }
 
                     label {
@@ -62,7 +65,7 @@
             }
 
             .columna3 {
-                max-width: 400px;
+                max-width: 200px;
 
                 h1 {
                     font-size: 22px;

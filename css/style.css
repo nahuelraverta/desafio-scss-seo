@@ -162,7 +162,7 @@
           color: #c7c7c7;
           margin-top: 20px; }
       .footer .container-footer-all .container-body .columna2 {
-        max-width: 400px;
+        max-width: 600px;
         font-size: 22px; }
         .footer .container-footer-all .container-body .columna2 h1 {
           font-size: 22px; }
@@ -170,14 +170,17 @@
           margin-top: 20px;
           display: flex; }
           .footer .container-footer-all .container-body .columna2 .row img {
-            width: 36px;
-            height: 36px; }
+            width: 40px;
+            height: 40px; }
+          .footer .container-footer-all .container-body .columna2 .row .spec {
+            width: 75px;
+            height: 40px; }
           .footer .container-footer-all .container-body .columna2 .row label {
             margin-top: 10px;
             margin-left: 10px;
             color: #c7c7c7; }
       .footer .container-footer-all .container-body .columna3 {
-        max-width: 400px; }
+        max-width: 200px; }
         .footer .container-footer-all .container-body .columna3 h1 {
           font-size: 22px; }
         .footer .container-footer-all .container-body .columna3 .row2 {
@@ -191,13 +194,19 @@
             max-width: 140px; }
 
 /* cards  */
-.seleccion-novedades {
-  padding: 80px 0; }
+.cards {
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative; }
 
 .tarjeta {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   border-radius: 15px;
+  margin: 50px;
   margin-top: 50px;
   width: 350px;
   margin-bottom: 50px; }

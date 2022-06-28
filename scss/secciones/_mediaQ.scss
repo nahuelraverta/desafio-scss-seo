@@ -39,3 +39,40 @@
         margin-top: 40px;
     }
 }
+
+@media (max-width: 900px) {
+    .grilla2 {
+        grid-template-areas:
+            "nav nav nav"
+            ". seccionPrincipal seccionPrincipal seccionPrincipal ."
+            "footer footer footer";
+    }
+
+    .nav {
+        background-color: rebeccapurple
+    }
+
+    .flexPadre {
+        flex-wrap: wrap;
+        list-style: none;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer {
+        background-color: rebeccapurple;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        flex-wrap: wrap;}
+
+
+        
+
+}

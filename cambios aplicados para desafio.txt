@@ -1,0 +1,5 @@
+- aplique variables en la seccion GNEERALES. Le doy como variable fondo gris a todas las paginas.
+- aplique maps en la seccion "seccionPrincipal". Le di estilo predeterminado algunas acciones especificas.
+- aplique extend en la seccion "seccionPrincipal". Me asegure de que ambos textos esten centrados.
+- aplique mixin en la seccion "nav.scss". Me asegure de deshabilitar el text decoration y fijar un padding en ambas secciones.
+

@@ -1,5 +1,13 @@
+SASS:
 - aplique variables en la seccion GNEERALES. Le doy como variable fondo gris a todas las paginas.
 - aplique maps en la seccion "seccionPrincipal". Le di estilo predeterminado algunas acciones especificas.
 - aplique extend en la seccion "seccionPrincipal". Me asegure de que ambos textos esten centrados.
 - aplique mixin en la seccion "nav.scss". Me asegure de deshabilitar el text decoration y fijar un padding en ambas secciones.
 
+SEO:
+- Modifique la distribucion de los titulos : antes eran todos h3 y ahora les di un orden jerarquico respetando la misma class.
+- Modifique los iconos del header para una mejor visibilidad
+- Agregue como "description": Esto es una base de datos de diverso contenido comercial destinado
+    exclusivamente a comics o mangas de distintas categorías.
+
+- Agregue como "keywords": "comic, comics, dc, marvel, comprar, argentina, historieta, descuento, novedades, tienda, comiqueria, oferta, batman, guason, thor, america, capitan, hulk, joker"

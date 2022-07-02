@@ -6,6 +6,18 @@
   margin: 10px;
   padding: 10px; }
 
+.titular {
+  padding: 10px;
+  font-size: 35px;
+  text-align: center; }
+
+.referente {
+  color: white;
+  text-decoration: none;
+  font-weight: bold; }
+  .referente:hover {
+    color: black; }
+
 .grilla2 {
   background-color: grey;
   display: grid;
@@ -22,7 +34,7 @@
   .nav .transformacion .nav-link {
     color: white; }
     .nav .transformacion .nav-link:hover {
-      color: yellow; }
+      color: black; }
 
 .logo {
   display: flex;
@@ -34,6 +46,19 @@
     width: auto;
     height: 100px;
     margin: auto; }
+
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white; }
+  .subscribe input[type="text"]:focus {
+    outline: none; }
+
+.subscribe ::placeholder {
+  color: white; }
+
+.subscribe input[type="submit"] {
+  background-color: blue;
+  color: white; }
 
 /* MAIN */
 /* seccion principal */

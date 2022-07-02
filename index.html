@@ -2,205 +2,330 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyowords"
-        content="comic, comics, dc, marvel, comprar, argentina, historieta, descuento, novedades, tienda, comiqueria, oferta, batman, guason, thor, america, capitan, hulk, joker">
-    <meta name="description" content="Esto es una base de datos de diverso contenido comercial destinado
-    exclusivamente a comics o mangas de distintas categorías.">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
     <title>INICIO | COMIX</title>
 </head>
 
-<body class="grilla">
-
+<body class="grilla2">
+    <!-- HEADER -->
     <header class="nav">
-        <div class="logo">
-            <a href="index.html">
-                <img src="https://pluspng.com/img-png/logo-dc-comics-png-dc-logo-for-batman-by-piebytwo-1024.png"
-                    alt="LOGO">
-                <h2 class="nombreComix">COMIX</h2>
-                <h3>Tienda de Comics2</h3>
-            </a>
-
-            <nav>
-                <ul class="flexPadre">
-                    <!-- LI: list item -->
-                    <li>
-                        <a href="index.html">
-                            INICIO </a>
-                    </li>
-                    <li>
-                        <a href="">NOVEDADES</a>
-                    </li>
-                    <li>
-                        <a href=""> GENEROS </a>
-                    </li>
-                    <li>
-                        <a href="">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"> <img src="/img/ALTERNATIVA.png" class="d-block w-100"
+                        alt="logo_oficial"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item transformacion">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item transformacion">
+                            <a class="nav-link" href="/pages/novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item dropdown transformacion">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Genero
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item text-dark" href="/pages/dcComicsBostrap.html">DC</a></li>
+                                <li><a class="dropdown-item text-dark" href="/pages/marvelComics.html">MARVEL</a></li>
+                                <li><a class="dropdown-item text-dark" href="/pages/manga.html">MANGA</a></li>
+                            </ul>
+                        <li class="nav-item transformacion">
+                            <a class="nav-link" href="/pages/contactos.html">Contacto</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Proximamente</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 
     </header>
 
     <section class="seccionPrincipal">
-        <article class="articulo">
-            <img src="https://th.bing.com/th/id/OIP.jDHDiCrl_CGDUL8QDatA_gHaLH?pid=ImgDet&rs=1"
-                alt="portada la broma asesina">
-            <h1 class="titulares">LA BROMA ASESINA - ALAN MOORE</h1>
-            <p>Una noche lluviosa Batman llega al Asilo Arkham para hablar con Joker. Pero cuando llega a su celda, se
-                da
-                cuenta de que el que está ahí es un impostor, y que el real ha escapado y anda suelto por Gotham.
-                Adaptación
-                animada del cómic homónimo, uno de los más laureados de la historia del medio.</p>
-            <h2 class="titulares">RESEÑAS</h2>
-            <a target="_blank" href="https://www.akiracomics.com/blog/resena-broma-asesina">“La Broma Asesina” gravita,
-                tal
-                y como reflexionaba Nietzsche en su obra, en torno al concepto algo enfermizo e inquietante de esa
-                realimentación que hace el que contempla al abismo, y que tiene reflejo habitual en la moneda de dos
-                caras que
-                supone el estereotipo de superhéroe y archinémesis. (HAZ CLICK PARA VER LA RESEÑA COMPLETA)</a>
-            <br>
-            <br>
-            <a target="_blank" href="https://diariodefriki.com/2018/02/01/review-batman-la-broma-asesina/">“The Killing
-                Joke
-                es un cómic esencial para cualquier fanático de DC que quiera conocer los orígenes del Joker o verlo
-                medirse
-                con Batman. De todas formas la historia no es tan atrapante como muchos dicen. Aquí solo vemos un loco
-                haciendo cosas de loco y otro loco intentando atraparlo porque «él es el bueno». Si bien me parece super
-                interesante esta idea y la forma en la que los contrasta Moore, el comic no está a la altura de las
-                circunstancias. (HAZ CLICK PARA VER LA RESEÑA COMPLETA)</a>
-            <h3 class="titulares">CAPTURAS</h3>
-            <!-- <img src="https://diariodefriki.files.wordpress.com/2018/02/main-qimg-763f6bee18feae2a96bc4888601f96f2.png"
-                alt="foto del joker">
-            <br>
-            <img src="https://diariodefriki.files.wordpress.com/2018/02/batman-the-killing-joke-dc-animated-moviejpg.jpeg?w=736"
-                alt="batman herido">
-            <br>
-            <img src="https://diariodefriki.files.wordpress.com/2018/02/1488540-joker31.png?w=736" alt="batman palazo">
-            <br> -->
+        <main>
+            <hr class="separador">
+            <h2 class="bienvenido text-center">ULTIMAS NOVEDADES</h2>
+            <div class="container">
 
-            <!-- SLIDE DE FOTOS -->
-            <div class="slider">
-                <ul>
-                    <li><img src="img/1viq.jpg" alt=""></li>
-                    <li><img src="img/2viq.jpg" alt=""></li>
-                    <li><img src="img/3viq.jpg" alt=""></li>
-                    <li><img src="img/4viq.jpg" alt=""></li>
-                </ul>
-            </div>
+                
 
 
-            <h4 class="titulares">VIDEO RESEÑA</h4>
-            <div class="videoYT">
-                <iframe class="dimension" src="https://www.youtube.com/embed/t4zIiUEo4xo" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <a href="pages/novedades.html"> <div class="galeria">
+                    <img src="img/comics/batman-cdln-cover.jpeg" alt="">
+                    <img src="img/comics/batman-cdln2-cover.jpeg" alt="">
+                    <img src="img/comics/broma asesina-portada.jpg" alt="">
+                    <img src="https://d2r9epyceweg5n.cloudfront.net/stores/057/977/products/amazingspidermanlegacy011-5c8aa1c7752274f7e115342565028586-320-0.jpg" alt="">
+                    <img src="https://d2r9epyceweg5n.cloudfront.net/stores/057/977/products/ovnakira0011-ac6b9271db7d7a28af15195670778577-320-0.jpg" alt="">
+                
+                </div></a>
 
-            </div>
-            <br>
-            <h5 class="titulares">DONDE COMPRARLO</h5>
-            <br>
-            <p>PROXIMAMENTE
-
-            </p>
-        </article>
+                <hr class="separador">
+    
+                <!-- crear divisiones con class container para englobar las secciones personalizadas -->
+                <div class="container">
+                    <!-- divisiones en clase row (flecha) indica que formato tendra el contenido dentro -->
+                    <div class="row">
+                        <!-- indico la cantidad de columnas que voy a utilizar para este sector. El total de las 12 columnas de BST. -->
+                        <div class="col-12 text-center">
+                            <h2 class="bienvenido">BIENVENIDOS A comiX</h2>
+                            <h3>El recopilador de comics mas grande de Argentina</h3>
+                        </div>
+                    </div>
+                </div>
+                <hr class="separador">
+    
+                <div class="row">
+                    <!-- 12 columnas / 2 = col-md-6 -->
+                    <div class="col-12 col-md-6">
+                        <div class="videoYT">
+                            <iframe class="dimension" src="https://www.youtube.com/embed/kYRnyfFzgEg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                
+                            </div>
+                    </div>
+                    <div class="col12 col-md-6 mt-2">
+                        <h4>¿Que es comiX?</h4>
+                        <p>Comix es una web dedicada a la busqueda de ofertas y comics comercializados en Argentina.
+                            Esta web detalla y recopila diferentes titulos comercializados en las comiquerias adheridas con
+                            el objetivo de obtener la mejor oferta de ese comic que tanto estas buscando.
+    
+                        </p>
+                        <h4>¿Que son los premios Eisner?</h4>
+                        <p>Los premios Eisner son los galardones más reconocidos del mundo del cómic y reconocen hasta 36
+                            categorías, incluyendo mejor serie continuada, mejor escritor o mejor autor completo. Los Eisner
+                            se conceden todos los años en el marco la Convención Internacional de Cómics en San Diego.</p>
+                        <h4>¿Que son los premios Eagle?</h4>
+                        <p>Los premios Eagle son los premios del comic más importantes del Reino Unido. Los premios son
+                            concedidos por los fans, por lo que se conocen como «la primera encuesta independiente de
+                            premios sobre el arte del cómic a nivel nacional (en el Reino Unido)»</p>
+                    </div>
+    
+                    <hr class="separador">
+    
+                </div>
+    
+                <div class="col-12 text-center">
+                    <h2>COMO COMPRAR</h2>
+    
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item color_bkg">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    COMO COMPRAR
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <h3 class="strong">Gracias por elegir comiX. </h3>
+    
+                                    <p> IMPORTANTE: LOS ARTICULOS PUBLICADOS NO SIEMPRE ESTAN DISPONIBLES PARA RETIRAR EN EL
+                                        LOCAL, LA
+                                        PAGINA ES SOLO PARA ENVIOS A DOMICILIO Y NO REPRESENTA EL STOCK EN LA TIENDA FISICA.
+                                    </p>
+    
+                                    <p> A continuacion te damos algunos elementos para que tu compra sea mas sencilla:</p>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                        PASOS A SEGUIR
+                                    </button>
+                                </h2>
+                                <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body color_bkg">
+                                        <div class="container text-lg-start ">
+                                            <p>.Elige el producto que deseas comprar.</p>
+                                            <p> .Haz clic en el botón de "Agregar al carrito". Esto agregará el producto a
+                                                tu carrito y te
+                                                llevará al mismo.</p>
+                                            <p>.Puedes seguir agregando otros productos al carrito o sino haz clic en
+                                                "Iniciar Compra".</p>
+                                            <p>.Completa tus datos de contacto y haz clic en "Continuar".</p>
+                                            <p>.Ingresa la dirección a donde deseas recibir el producto. Luego haz clic en
+                                                "Continuar".</p>
+                                            <p>.Elige el unico medio de pago disponible: "A convenir" y luego haz clic en
+                                                "Continuar".</p>
+                                            <p>.Finalmente en la página de Confirmación de compra puedes revisar toda la
+                                                información de la
+                                                compra. Luego haz clic en "Continuar".</p>
+                                            <p>.Una vez que hayamos recibido tu pedido, verificaremos que todos los
+                                                productos estan disponibles y
+                                                te enviaremos un link de pago con tu numero de orden. Si alguno de los
+                                                productos solicitados no
+                                                tuviera stock, te lo avisaremos por mail para que nos confirmes si enviamos
+                                                el resto de los
+                                                items o prefieres realizar un nuevo pedido.</p>
+                                            <p>.Una vez realizado el pago recibiras el comprobante desde la plataforma de
+                                                pagos, LA PAGINA NO LO
+                                                ACTUALIZA.</p>
+                                            <p>.Haremos el envío correspondiente de los productos que hayas comprado dentro
+                                                de las siguientes 72
+                                                hs. habiles. EN EL CASO DE INCLUIR PREVENTAS EL PLAZO SE COMPUTA DESDE LA
+                                                RECEPCION DE LAS
+                                                MISMAS EN LA LIBRERIA POR PARTE DE LA EDITORIAL</p>
+                                            <p>.ENVIOS INTERNACIONALES: La compra minima es de u$s 100 ($10000 PESOS). En
+                                                este caso una vez
+                                                verificado el stock y el peso del envio, enviaremos la solicitud de pago por
+                                                Paypal y una vez
+                                                recibido el mismo el envio se realizara por DHL EXPRESS WORLDWIDE.
+                                            <p>.Los descuentos por Preventas no son acumulables con otras promociones</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <hr class="separador">
+    
+    
+                        <div class="subscribe pt-5 pb-5 text-center text-md-start">
+                            <div class="container">
+                                <form class="row align-items-center">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="fw-bold fs-5 mb-3">Subscribite para mas novedades:</div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-7 mb-3">
+                                        <input class="w-100 text-light p-2 bg-transparent" type="text"
+                                            placeholder="Ingrese su mail" />
+                                    </div>
+                                    <div class="col-md-6 col-lg-2">
+                                        <input class="btn rounded-pill" type="submit" value="Suscribite" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+    
+    
+    
+    
+    
+    
+        </main>
     </section>
 
 
-    <footer class="footer">
+    <!-- FOOTER -->
+    <div class="container my-5 footer">
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white text-lg-start">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Seccion: Cantidad de Links -->
+                <section class="mt-5">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-5">
 
-        <div class="container-footer-all">
 
-            <div class="container-body">
 
-                <div class="columna1">
-                    <h6>MAS INFORMACION</h1>
-                        <p>Este proyecto intentará proyectar una base de datos de diverso contenido comercial destinado
-                            exclusivamente a comics o mangas de distintas categorías.</p>
-                        <p>Se acoplará en cada artículo, la posibilidad de adquirir el comic seleccionado en las
-                            diversas
-                            comiquerías del país. Las mismas podrán ofrecer descuentos y promociones (bancarias o de la
-                            propia
-                            entidad).</p>
-                </div>
-
-                <div class="columna2">
-                    <h7>REDES SOCIALES</h1>
-
-                        <div class="row">
-                            <img src="icon/facebook.png">
-                            <label> Siguenos en Facebook</label>
+                        <!-- COLUMNA NUEVA - GRID -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="index.html" class="text-white">INICIO</a>
+                            </h6>
                         </div>
 
-                        <div class="row">
-                            <img src="icon/twitter.png">
-                            <label> Siguenos en Twitter</label>
+
+                        <!-- COLUMNA NUEVA - GRID-->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="novedades.html" class="text-white">NOVEDADES</a>
+                            </h6>
                         </div>
 
-                        <div class="row">
-                            <img src="icon/instagram.png">
-                            <label> Siguenos en Instagram</label>
+                        <!-- COLUMNA NUEVA - GRID -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="contactos.html" class="text-white">CONTACTO</a>
+                            </h6>
                         </div>
-
-                </div>
-
-                <div class="columna3">
-
-                    <h1>CONTACTO</h1>
-                    <div class="row2">
-                        <img src="icon/house.png">
-                        <label>La Plata,
-                            Buenos Aires, Argentina
-                            Calle 40 N°12124
-                            Planta Baja
-                        </label>
-
+                        <!-- Grid column -->
                     </div>
+                    <!-- Grid fila-->
+                </section>
+                <!-- Seccion: 5 links -->
 
-                    <div class="row2">
-                        <img src="icon/smartphone.png">
-                        <label>+54 221 36448511111
-                        </label>
+                <hr class="my-5" />
 
+                <!-- Seccion: Texto -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p class="text-center">
+                                Comix es una web dedicada a la busqueda de ofertas y comics comercializados en
+                                Argentina. Esta web detalla y recopila diferentes titulos comercializados en las
+                                comiquerias adheridas con el objetivo de obtener la mejor oferta de ese comic que tanto
+                                estas buscando.
+                            </p>
+                        </div>
                     </div>
+                </section>
+                <!-- Seccion: Texto -->
 
-                    <div class="row2">
-                        <img src="icon/contact.png">
-                        <label>nahuelraverta@rotmail.com
-                        </label>
-
-                    </div>
-
-
-                </div>
-
-
+                <!-- Seccion Redes Sociales -->
+                <section class="text-center mb-5">
+                    <a href="" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    </a>
+                    <a href="" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section>
+                <!-- Termina redes sociales -->
             </div>
+            <!-- cierra contenedor grid -->
 
-            <!-- <div class="container-footer">
-                <div class="copyright">
-                    © 2022 Todos los Derechos Reservados | NahuRav
-                </div>
-
-                <div>
-                    <div class="information">
-                        Informacion | Privacion y Politica | Terminos y Condiciones
-                    </div>
-                </div>
-            </div> -->
-
-        </div>
-
-    </footer>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2022 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- cierra Copyright -->
+        </footer>
+        <!-- cierra Footer -->
+    </div>
 
 </body>
 
